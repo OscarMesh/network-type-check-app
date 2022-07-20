@@ -44,7 +44,6 @@ body {
   padding: 10px 20px;
   border: 1px solid #57a608;
   border-radius: 10px;
- 
 }
 
 .container input ::placeholder {
@@ -56,15 +55,14 @@ body {
   color: rgba(0, 0, 0, 0.61);
 }
 .container .message {
-    display: flex;
-    gap: 10px;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-between;
-
+  display: flex;
+  gap: 10px;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
 }
 .container .message img {
-    width: 1.5rem;
+  width: 1.5rem;
 }
 .container .message p {
   font-family: "Mulish";
@@ -78,10 +76,6 @@ body {
 }
 
 .container button {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
   padding: 10px 10px;
   background: #57a608;
   border-radius: 10px;
@@ -95,7 +89,7 @@ body {
 }
 
 .container button:hover {
-    color: #57a608;
-    background: #ffffff;
-    border: 1px solid #57a608;
+  color: #57a608;
+  background: #ffffff;
+  border: 1px solid #57a608;
 }

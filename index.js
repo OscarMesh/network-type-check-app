@@ -1,7 +1,7 @@
-var check = document.querySelector("#check");
 var containerEl = document.querySelector(".container");
 var number = document.querySelector("#number");
 // var text = document.querySelector("#text");
+var check = document.querySelector("#check");
 var messageEL = document.querySelector(".message");
 
 const logo = {
@@ -29,6 +29,7 @@ const prefixes = {
   GLO: [" 0805", "0807", "0811", "0705", "0815", "0905"],
   AIRTEL: ["0802", "0808", "0812", "0701", "0708", "0902", "0907", "0901"],
   "9MOBILE": ["0809", "0817", "0818", "0908", "0909"],
+  " MULTI-LINKS": ["0709", "0702"],
 };
 
 check.addEventListener("click", () => {
